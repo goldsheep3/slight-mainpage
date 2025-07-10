@@ -1,0 +1,22 @@
+<local:MyCard Title="幻想维度服务器" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <!-- 图片 -->
+        <local:MyImage Height="150" HorizontalAlignment="Center" Source="" />
+        
+        <!-- 标题文字 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,15,0,5" HorizontalAlignment="Center" FontSize="20">
+            <Run Foreground="#1976D2">剑与魔法：</Run>
+            <Run Foreground="#9C27B0">幻想维度</Run>
+        </TextBlock>
+        
+        <!-- 描述文字 -->
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,10" HorizontalAlignment="Center" Foreground="#808080" FontSize="12"
+                   Text="欢迎来到剑与魔法：幻想维度！"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" HorizontalAlignment="Center" Foreground="#808080" FontSize="12"
+                   Text="服务器交流群：954911537"/>
+        
+        <!-- 进入服务器按钮 -->
+        <local:MyButton Margin="0,10,0,0" Width="180" Height="35" HorizontalAlignment="Center" Padding="20,0,20,0" ColorType="Highlight"
+                    Text="进入幻想维度" EventType="启动游戏" EventData="幻想维度|slight.ciane.cn" ToolTip="点击进入幻想维度服务器"/>
+    </StackPanel>
+</local:MyCard>
